@@ -34,13 +34,12 @@ Um **app mobile** integrado a um sistema backend que permita:
 
 ## 5. Caso de Uso
 
-```mermaid
 usecaseDiagram
-  actor Usuario
-  actor Administrador
+  :Usuário: as U
+  :Administrador: as A
 
-  Usuario --> (Consultar vagas)
-  Usuario --> (Reservar vaga)
-  Usuario --> (Liberar vaga)
+  U --> (Consultar vagas)
+  U --> (Reservar vaga)
+  U --> (Liberar vaga)
 
-  Administrador --> (Gerenciar vagas)
+  A --> (Gerenciar vagas)
