@@ -34,12 +34,14 @@ Um **app mobile** integrado a um sistema backend que permita:
 
 ## 5. Caso de Uso
 
-usecaseDiagram
-  :Usuário: as U
-  :Administrador: as A
+**Atores:**
+- Usuário
+- Administrador
 
-  U --> (Consultar vagas)
-  U --> (Reservar vaga)
-  U --> (Liberar vaga)
+**Usuário pode:**
+- Consultar vagas
+- Reservar vaga
+- Liberar vaga
 
-  A --> (Gerenciar vagas)
+**Administrador pode:**
+- Gerenciar vagas (cadastrar, editar e remover)
