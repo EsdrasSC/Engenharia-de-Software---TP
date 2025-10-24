@@ -1,47 +1,60 @@
-# Engenharia-de-Software---TP
+# 🚗 PARKSYNC – Estacionamento Inteligente
 
+Este projeto faz parte das atividades da disciplina **Engenharia de Software**, representando o **TP4 – Sprint de Desenvolvimento + Plano de Testes**.
 
-## Objetivo
-Desenvolver um **aplicativo de estacionamento inteligente** que mostre vagas disponíveis em tempo real, permita reservas vagas publicas.  
-O projeto está alinhado ao **ODS 11 - Cidades e comunidades sustentáveis**, pois ajuda a reduzir congestionamentos e emissão de poluentes.
+O sistema PARKSYNC simula um estacionamento inteligente com controle automatizado de vagas, permitindo verificar vagas livres, ocupadas e reservadas. O projeto foi inicialmente implementado com ESP32, sensores ultrassônicos e comunicação BLE, e nesta etapa foi adaptado para funcionar **sem hardware físico**, apenas com simulação via software.
 
+---
 
-## Problema
-Motoristas gastam muito tempo procurando vagas em áreas urbanas. Isso causa:
-- Trânsito desnecessário;  
-- Aumento da poluição;  
-- Estresse e perda de tempo.  
+## 🧩 Estrutura do Repositório
 
+```
+/src                → Código-fonte da aplicação
+/docs               → Documentação (arquitetura, plano de testes, etc.)
+/videos             → Vídeo de demonstração e roteiro
+```
 
-## Solução Proposta
-Um **app mobile** integrado a um sistema backend que permita:
-- Consultar vagas disponíveis;  
-- Reservar vagas;  
-- Administradores gerenciarem as vagas pelo sistema.  
+---
 
-## Requisitos
-### Funcionais
-- RF01: Consultar vagas em tempo real.  
-- RF02: Reservar vaga.  
-- RF03: Cancelar ou liberar vaga.  
-- RF04: Administrador gerenciar vagas.  
+## 🧠 Evoluções do TP4
 
-### Não Funcionais
-- RNF01: Sistema responsivo (mobile e web).  
-- RNF02: Resposta em menos de 2s.  
-- RNF03: Autenticação de usuários.  
+- Implementação de simulação lógica das vagas (sem uso de hardware)
+- Criação de um **plano de testes funcional**
+- Atualização do **GitHub Projects** com novas tarefas e progresso
+- Criação do **vídeo de demonstração**
+- Organização da documentação no diretório `/docs`
 
+---
 
-## 5. Caso de Uso
+## 🧪 Plano de Testes
 
-**Atores:**
-- Usuário
-- Administrador
+O plano de testes completo está disponível em:
 
-**Usuário pode:**
-- Consultar vagas
-- Reservar vaga
-- Liberar vaga
+📄 [`docs/plano_de_testes.md`](./docs/plano_de_testes.md)
 
-**Administrador pode:**
-- Gerenciar vagas (cadastrar, editar e remover)
+---
+
+## 🎥 Vídeo de Apresentação
+
+O vídeo demonstrando o estado atual do projeto está disponível em:
+
+📂 `/videos/apresentacao_tp4.mp4`
+
+Ou assista pelo link (caso tenha sido enviado ao GitHub Pages ou YouTube).
+
+---
+
+## 🧱 Tecnologias Utilizadas
+
+- **Simulação**: JavaScript (ou Python)
+- **Interface**: MIT App Inventor (simulada)
+- **Documentação**: Markdown + GitHub Pages
+- **Controle de versão**: Git/GitHub
+
+---
+
+## 👥 Autoria
+
+Desenvolvido por **Esdras Silva Carvalho**  
+Curso: Engenharia de Software  
+Instituição: Universidade Federal de Minas Gerais (UFMG)
